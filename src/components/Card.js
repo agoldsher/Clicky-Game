@@ -3,9 +3,10 @@ import "./style.css";
 
 function Card(props) {
   return (
-    <div className="inner-card">
-        <div className="img-container">
-            <img alt={props.name} src={props.image} />
+
+    <div className="inner-card d-flex">
+        <div onClick={() => props.checkGuess(props.id)} className="img-container">
+            <img alt={""} src={props.image} />
         </div>
     </div>
   );

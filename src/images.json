@@ -1,0 +1,37 @@
+[{
+        "id": 1,
+        "image": "./images/al.jpg"
+    },
+    {
+        "id": 2,
+        "image": "./images/buck.jpg"
+    },
+    {
+        "id": 3,
+        "image": "./images/bud.jpg"
+    },
+    {
+        "id": 4,
+        "image": "./images/jefferson.jpg"
+    },
+    {
+        "id": 5,
+        "image": "./images/kelly.jpg"
+    },
+    {
+        "id": 6,
+        "image": "./images/lucky.jpeg"
+    },
+    {
+        "id": 7,
+        "image": "./images/marcy.jpg"
+    },
+    {
+        "id": 8,
+        "image": "./images/peggie.jpg"
+    },
+    {
+        "id": 9,
+        "image": "./images/steve.jpg"
+    }
+]
