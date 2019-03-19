@@ -64,9 +64,9 @@ checkGuess = (currentId)=> {
 }
 
 endGame(){
-
   this.setState({score:0})
   this.setState({topScore:0});
+  alert("You win!");
   
 }
  
@@ -74,11 +74,17 @@ endGame(){
   render() {
     return (
       <div className="card text-center">
-        <div className="card-header bg-primary text-white">
-          <p className="card-text">How well do you know Married With Children?</p>
-          <p className="card-text">Click on each picture only once!</p>
-          <p className="card-text">Score: {this.state.score}</p>
-          <p className="card-text">Top Score: {this.state.topScore}</p>
+        <div className="card-header bg-info ">
+          <h2 className="card-text text-white">How well do you know Married With Children?</h2>
+          <h5 className="card-text text-white-50">Click on each picture only once!</h5>
+          <div className="row text-white">
+            <div className="col"> 
+              <h5 className="card-text">Score: {this.state.score}</h5>
+            </div> 
+            <div className="col">
+              <h5 className="card-text">Top Score: {this.state.topScore}</h5>
+            </div>
+          </div>
         </div>
         <div>
         {(this.state.score===this.state.images.length)?
